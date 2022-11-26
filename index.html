@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>trang chủ</title>
+</head>
+<style>
+  
+
+  .fied {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    border-radius: 16px;
+    justify-content: center;
+
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(53, 32, 110);
+  }
+</style>
+
+<body>
+  <header id="top"></header>
+  <div class="fied">
+    <a href="#top">⇧</a>
+
+  </div>
+  <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-dark">
+    <div class="container">
+        <h1 style="color: rgb(226, 222, 222);">YALA STYLE</h1>
+        <div class="navbar-collapse collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Trang chủ </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sanpham.html">Sản phẩm</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gioithieu.html">Giới thiệu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="lienhe.html">Liên hệ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="chitiet.html">Chi tiết</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tintuc.html">Tin tức</a>
+                </li>
+            </ul>
+            <form class="form-inline mt-2 mt-md-0" method="get" action="search.html">
+                <input class="form-control mr-sm-2" type="text" placeholder="Tìm kiếm" aria-label="Search"
+                    name="keyword_tensanpham">
+                <button class="btn btn-outline-success my-2 my-sm-2" type="submit">Tìm kiếm</button>
+            </form>
+        </div>
+        <ul class="navbar-nav px-3">
+            <li class="nav-item text-nowrap">
+                <a class="nav-link" href="cart.html">Giỏ hàng</a>
+            </li>
+            <li class="nav-item text-nowrap">
+                <!-- Nếu chưa đăng nhập thì hiển thị nút Đăng nhập -->
+                <a class="nav-link" href="login.html">Đăng nhập</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+
+
+
+  <div class="box">
+    <div class="container">
+      <div class="img">
+        <img src="/img/slide_1_img.webp" alt="">
+      </div>
+      <div class="nd">
+        <h1>Thời trang nữ</h1>
+        <p>Bộ sưu tập xuân hè</p>
+
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <div class="box1">
+            <img src="/img/aonu1.webp" alt="">
+            <h3>Áo có slogan</h3>
+            <p>240,000₫</p>
+            <button><a href="#">mua</a></button>
+            <button><a href="#">them vao gio hang</a></button>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="box1">
+            <img src="/img/aonu2.webp" alt="">
+
+            <h3>Áo len nữ có slogan</h3>
+            <p>270,000₫ </p>
+            <button><a href="#">mua</a></button>
+            <button><a href="#">them vao gio hang</a></button>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="box1">
+            <img src="/img/aonu3.webp" alt="">
+            <h3>Áo phông Jersey</h3>
+            <p>360,000₫</p>
+            <button><a href="#">mua</a></button>
+            <button><a href="#">them vao gio hang</a></button>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="box1">
+            <img src="/img/aonu4.webp" alt="">
+            <h3>Áo len cổ tròn </h3>
+            <p>250,000₫</p>
+            <button><a href="#">mua</a></button>
+            <button><a href="#">them vao gio hang</a></button>
+          </div>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <div class="box1">
+            <img src="/img/aonu5.webp" alt="">
+            <h3>Áo len slogan</h3>
+            <p>240,000₫</p>
+            <button><a href="#">mua</a></button>
+            <button><a href="#">them vao gio hang</a></button>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="box1">
+            <img src="/img/aonu6.webp" alt="">
+
+            <h3>Áo len kiểu hàn</h3>
+            <p>270,000₫ </p>
+            <button><a href="#">mua</a></button>
+            <button><a href="#">them vao gio hang</a></button>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="box1">
+            <img src="/img/aonu7.webp" alt="">
+            <h3>quần jean kaki nữ</h3>
+            <p>360,000₫</p>
+            <button><a href="#">mua</a></button>
+            <button><a href="#">them vao gio hang</a></button>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="box1">
+            <img src="/img/vaybu1.jpg" alt="">
+            <h3>Váy quây dài </h3>
+            <p>250,000₫</p>
+            <button><a href="#">mua</a></button>
+            <button><a href="#">them vao gio hang</a></button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="box">
+    <div class="container">
+
+      <div class="nd">
+        <h1>Thời trang nam</h1>
+        <p>Bộ sưu tập xuân hè</p>
+
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <div class="box1">
+            <img src="/img/aonam1.webp" alt="">
+            <h3>Sowmi nam tay dài</h3>
+            <p>240,000₫</p>
+            <button><a href="#">mua</a></button>
+            <button><a href="#">them vao gio hang</a></button>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="box1">
+            <img src="/img/aonam2.webp" alt="">
+
+            <h3>Áo thun nam</h3>
+            <p>270,000₫ </p>
+            <button><a href="#">mua</a></button>
+            <button><a href="#">them vao gio hang</a></button>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="box1">
+            <img src="/img/aonam3.webp" alt="">
+            <h3>Quần short nam</h3>
+            <p>360,000₫</p>
+            <button><a href="#">mua</a></button>
+            <button><a href="#">them vao gio hang</a></button>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="box1">
+            <img src="/img/aonam4.webp" alt="">
+            <h3>Áo khoác nam </h3>
+            <p>250,000₫</p>
+            <button><a href="#">mua</a></button>
+            <button><a href="#">them vao gio hang</a></button>
+          </div>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <div class="box1">
+            <img src="/img/aonam5.webp" alt="">
+            <h3>Áo khoác caro nam</h3>
+            <p>240,000₫</p>
+            <button><a href="#">mua</a></button>
+            <button><a href="#">them vao gio hang</a></button>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="box1">
+            <img src="/img/aonam6.webp" alt="">
+
+            <h3>Áo somi nam </h3>
+            <p>270,000₫ </p>
+            <button><a href="#">mua</a></button>
+            <button><a href="#">them vao gio hang</a></button>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="box1">
+            <img src="/img/aonam7.jpg" alt="">
+            <h3>áo phông nam</h3>
+            <p>360,000₫</p>
+            <button><a href="#">mua</a></button>
+            <button><a href="#">them vao gio hang</a></button>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="box1">
+            <img src="/img/aonam8.jpg" alt="">
+            <h3>quần âu nam </h3>
+            <p>250,000₫</p>
+            <button><a href="#">mua</a></button>
+            <button><a href="#">them vao gio hang</a></button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="container">
+    <div class="tt">
+      <div class="nd">
+        <h1><a href="gioithieu.html">Có thể bạn muốn biết</a></h1>
+        <p>Tin tức mới trong ngày</p>
+
+      </div>
+      <div class="box">
+        <div class="row">
+          <div class="col-4">
+            <img src="/img/tt1.jpg" alt="">
+            <h2><a href="">Bài mẫu 1</a></h2>
+            <p>Đây là trang blog của cửa hàng. Bạn có thể dùng blog để quảng bá sản phẩm mới, chia sẻ trải nghiệm của
+              khách hàng, các mẹo mua hàng hoặc bất kì điều gì bạn muốn chia sẻ.</p>
+            <button><a href=""></a>XEM THÊM</button>
+
+          </div>
+          <div class="col-4">
+            <img src="/img/tt2.jpg" alt="">
+            <h2><a href="">Bài mẫu 2</a></h2>
+            <p>Đây là trang blog của cửa hàng. Bạn có thể dùng blog để quảng bá sản phẩm mới, chia sẻ trải nghiệm của
+              khách hàng, các mẹo mua hàng hoặc bất kì điều gì bạn muốn chia sẻ.</p>
+            <button><a href=""></a>XEM THÊM</button>
+
+          </div>
+          <div class="col-4">
+            <img src="/img/tt3.jpg" alt="">
+            <h2><a href="">Bài mẫu 3</a></h2>
+            <p>Đây là trang blog của cửa hàng. Bạn có thể dùng blog để quảng bá sản phẩm mới, chia sẻ trải nghiệm của
+              khách hàng, các mẹo mua hàng hoặc bất kì điều gì bạn muốn chia sẻ.</p>
+            <button><a href=""></a>XEM THÊM</button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="info">
+    <div class="container1">
+      <div class="nd">
+        <h1>Follow us on Instagram</h1>
+        <p>@instagram</p>
+      </div>
+      <div class="box3">
+        <div class="row">
+          <div class="col-2">
+            <a href="#"><img src="/img/n1.webp" alt=""></a>
+
+          </div>
+          <div class="col-2">
+            <a href=""><img src="/img/n2.webp" alt=""></a>
+
+          </div>
+          <div class="col-2">
+            <a href=""><img src="/img/n3.jpg" alt=""></a>
+
+          </div>
+          <div class="col-2">
+            <a href=""><img src="/img/n4.jpg" alt=""></a>
+
+          </div>
+          <div class="col-2">
+            <a href=""><img src="/img/n5.webp" alt=""></a>
+
+          </div>
+          <div class="col-2">
+            <a href=""><img src="/img/n7.jpg" alt=""></a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="ft">
+    <div class="ket">
+      <div class="row">
+        <div class="col-3">
+          <h2>Về Runner Mobile</h2>
+          <p>Với các giải pháp công nghệ tốt nhất, Haravan là tất cả những gì bạn cần để xây dựng thương hiệu online,
+            thành công trong bán lẻ và marketing đột phá.</p>
+
+        </div>
+        <div class="col-3">
+          <h2>Giới thiệu</h2>
+          <p>Địa chỉ: Tầng 4, tòa nhà Flemington,
+            số 182, đường Lê Đại Hành, phường 15,
+            quận 11, Tp. Hồ Chí Minh.</p>
+          <p>Điện thoại: 1900.636.099</p>
+          <p>Email: hi@haravan.com</p>
+
+        </div>
+        <div class="col-3">
+          <h2>Hỗ trợ khách hàng</h2>
+          <ul>
+            <li><a href="">Tìm kiếm</a></li>
+            <li><a href="gioithieu.html">Giới thiệu</a></li>
+            <li><a href="">Chính sách đổi trả</a></li>
+            <li><a href="">Điều khoản dịch vụ</a></li>
+          </ul>
+
+        </div>
+        <div class="col-3">
+          <h2>Chăm sóc khách hàng</h2>
+
+          <p>1900.636.099</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="phan8">
+    <div class="d-flex justify-content-center">
+      <a href="">Facebook</a>
+      <a href="">Twitter</a>
+      <a href="">Google+</a>
+
+      <a href="">Behance</a>
+      <a href="">Dribbble</a>
+
+    </div>
+
+  </div>
+
+
+</body>
+<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+<script>
+  // scroll hàm đo độ dài của chuột
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 400) {
+      $('.fied').show();
+    }
+    else {
+      $('.fied').hide()
+    }
+
+  })
+  $('.fied').click(function () {
+    $(window).scrollTop(0);
+  })
+ 
+
+</script>
+
+</html>

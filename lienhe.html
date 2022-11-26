@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/jquery/dist/jquery.min.js">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/lienhe.css">
+    <title>liên hệ</title>
+</head>
+<style>
+    .fied {
+        position: fixed;
+        bottom: 5%;
+        right: 5%;
+        background-color: aqua;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        display: flex;
+        border-radius: 16px;
+        justify-content: center;
+
+
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(53, 32, 110);
+    }
+</style>
+
+<body>
+    <header id="top"></header>
+    <div class="fied">
+        <a href="#top">⇧</a>
+    </div>
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-dark">
+        <div class="container">
+            <h1 style="color: rgb(226, 222, 222);">YALA STYLE</h1>
+            <div class="navbar-collapse collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Trang chủ </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sanpham.html">Sản phẩm</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gioithieu.html">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="lienhe.html">Liên hệ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="chitiet.html">Chi tiết</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tintuc.html">Tin tức</a>
+                    </li>
+                </ul>
+                <form class="form-inline mt-2 mt-md-0" method="get" action="search.html">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Tìm kiếm" aria-label="Search"
+                        name="keyword_tensanpham">
+                    <button class="btn btn-outline-success my-2 my-sm-2" type="submit">Tìm kiếm</button>
+                </form>
+            </div>
+            <ul class="navbar-nav px-3">
+                <li class="nav-item text-nowrap">
+                    <a class="nav-link" href="cart.html">Giỏ hàng</a>
+                </li>
+                <li class="nav-item text-nowrap">
+                    <!-- Nếu chưa đăng nhập thì hiển thị nút Đăng nhập -->
+                    <a class="nav-link" href="login.html">Đăng nhập</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container1">
+
+        <ul>
+            <li><a href="index.html">Trang chủ</a></li>
+            <span>/</span>
+            <li><a href="gioithieu.html">Liên hệ</a></li>
+        </ul>
+    </div>
+    <div class="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.746566022101!2d105.7823324148857!3d21.16248173592609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313501d7a44677c7%3A0x32cf678f6b24ede4!2zdGjDtG4gxJDDrGEsIE5hbSBI4buTbmcsIMSQw7RuZyBBbmgsIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1667033427637!5m2!1svi!2s"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+    <div class="container10">
+        <div class="box">
+            <div class="row">
+                <div class="col-6">
+                    <h1>Thông tin liên hệ</h1>
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="./img/diachi.PNG" alt="">
+
+                        </div>
+                        <div class="col-10">
+                            <h4>Địa chỉ</h4>
+                            <p>Địa chỉ: Tầng 4, tòa nhà Flemington, số 182, đường Lê Đại Hành, phường 15, quận 11, Tp.
+                                Hồ Chí Minh.</p>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="./img/email.PNG" alt="">
+
+                        </div>
+                        <div class="col-10">
+                            <h4>email</h4>
+                            <p>hi@haravan.com</p>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="./img/dienthoai.PNG" alt="">
+
+                        </div>
+                        <div class="col-10">
+                            <h4>điện thoại</h4>
+                            <p>1900.636.099</p>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="./img/email.PNG" alt="">
+
+                        </div>
+                        <div class="col-10">
+                            <h4>Giờ làm việc</h4>
+                            <p>Thứ 2 đến Thứ 6 từ 8h đến 18h;
+                            </p>
+                            <p>Thứ 7 và Chủ nhật từ 8h00 đến 17h00</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-6">
+                    <h1>Gửi thắc mắc cho chúng tôi</h1>
+                    <div class="row">
+                        <div class="col-12">
+                            <label for="exampleInputEmail1" class="form-label">ĐIỀN THÔNG TIN</label>
+                            <input type="email" class="form-control" placeholder="Họ và tên">
+
+                        </div>
+
+
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <input type="email" class="form-control" placeholder="email của bạn">
+
+                        </div>
+                        <div class="col-6">
+                            <input type="text" class="form-control" placeholder="Số điện thoại của bạn">
+
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+
+                            <input type="text" class="form-control" placeholder="nội dung" style="height: 210px;">
+
+                        </div>
+
+
+                    </div>
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-success"><a href="#">GỬI CHO CHÚNG TÔI</a></button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="info">
+        <div class="container2">
+            <div class="nd">
+                <h1>Follow us on Instagram</h1>
+                <p>@instagram</p>
+            </div>
+            <div class="box3">
+                <div class="row">
+                    <div class="col-2">
+                        <a href="#"><img class="img-thumbnail" src="/img/n1.webp" alt=""></a>
+
+                    </div>
+                    <div class="col-2">
+                        <a href=""><img class="img-thumbnail" src="/img/n2.webp" alt=""></a>
+
+                    </div>
+                    <div class="col-2">
+                        <a href=""><img class="img-thumbnail" src="/img/n3.jpg" alt=""></a>
+
+                    </div>
+                    <div class="col-2">
+                        <a href=""><img class="img-thumbnail" src="/img/n4.jpg" alt=""></a>
+
+                    </div>
+                    <div class="col-2">
+                        <a href=""><img class="img-thumbnail" src="/img/n5.webp" alt=""></a>
+
+                    </div>
+                    <div class="col-2">
+                        <a href=""><img  class="img-thumbnail"src="/img/n7.jpg" alt=""></a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="ft">
+        <div class="ket">
+            <div class="row">
+                <div class="col-3">
+                    <h2>Về Runner Mobile</h2>
+                    <p>Với các giải pháp công nghệ tốt nhất, Haravan là tất cả những gì bạn cần để xây dựng thương hiệu
+                        online,
+                        thành công trong bán lẻ và marketing đột phá.</p>
+
+                </div>
+                <div class="col-3">
+                    <h2>Giới thiệu</h2>
+                    <p>Địa chỉ: Tầng 4, tòa nhà Flemington,
+                        số 182, đường Lê Đại Hành, phường 15,
+                        quận 11, Tp. Hồ Chí Minh.</p>
+                    <p>Điện thoại: 1900.636.099</p>
+                    <p>Email: hi@haravan.com</p>
+
+                </div>
+                <div class="col-3">
+                    <h2>Hỗ trợ khách hàng</h2>
+                    <ul>
+                        <li><a href="">Tìm kiếm</a></li>
+                        <li><a href="gioithieu.html">Giới thiệu</a></li>
+                        <li><a href="">Chính sách đổi trả</a></li>
+                        <li><a href="">Điều khoản dịch vụ</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-3">
+                    <h2>Chăm sóc khách hàng</h2>
+
+                    <p>1900.636.099</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="phan8">
+        <div class="d-flex justify-content-center">
+            <a href="">Facebook</a>
+            <a href="">Twitter</a>
+            <a href="">Google+</a>
+
+            <a href="">Behance</a>
+            <a href="">Dribbble</a>
+
+        </div>
+
+    </div>
+
+
+
+</body>
+<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+<script>
+    // scroll hàm đo độ dài của chuột
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 400) {
+            $('.fied').show();
+        }
+        else {
+            $('.fied').hide()
+        }
+
+    })
+    $('.fied').click(function () {
+        $(window).scrollTop(0);
+    })
+
+
+</script>
+
+</html>

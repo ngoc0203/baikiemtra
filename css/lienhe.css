@@ -1,0 +1,104 @@
+.container1 {
+  background-color: #cbdad6;
+  height: 60px;
+}
+.container1 ul {
+  display: flex;
+}
+.container1 ul span {
+  margin-top: 15px;
+}
+.container1 ul li {
+  padding: 15px 10px;
+  list-style: none;
+}
+.container1 ul li a {
+  text-decoration: none;
+  color: #212927;
+}
+
+.map iframe {
+  width: 100%;
+  height: 550px;
+}
+
+.container10 {
+  margin: 30px 30px;
+}
+.container10 h1 {
+  text-align: center;
+}
+.container10 img {
+  float: right;
+}
+.container10 button a {
+  color: white;
+  text-decoration: none;
+}
+
+.container2 {
+  background-color: azure;
+  align-items: center;
+  text-align: center;
+  max-width: 10px 20px;
+}
+.container2 img {
+  padding-bottom: 20px;
+}
+.container2 img:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.ft {
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+.ft h2 {
+  color: white;
+}
+.ft a {
+  text-decoration: none;
+}
+.ft p {
+  color: white;
+}
+
+.phan8 {
+  background-color: #1d212c;
+  padding: 40px 0px;
+}
+.phan8 a {
+  margin: 0px 30px;
+  text-decoration: none;
+  color: white;
+}
+.phan8 a:hover {
+  color: #30BAE7;
+}
+
+.container {
+  text-align: center;
+}
+.container .tt {
+  padding: 10px 10px;
+}
+.container .tt .nd a {
+  text-decoration: none;
+  color: #6d83c1;
+}
+.container .tt .box h2 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.container .tt .box button {
+  margin-bottom: 30px;
+  color: #101212;
+  background-color: #30BAE7;
+  border-radius: 10px;
+}
+.container .tt .box a {
+  padding: 10px 10px;
+  text-decoration: none;
+}/*# sourceMappingURL=lienhe.css.map */
